@@ -1,0 +1,8 @@
+{
+  "n_blocks": 2,
+  "filters": 16,
+  "kernel_size": 7,
+  "dropout": 0.2,
+  "learning_rate": 0.01,
+  "batch_size": 32
+}

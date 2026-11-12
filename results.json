@@ -1,0 +1,45 @@
+{
+  "data_source": "Synthetic ECG (demo mode)",
+  "data_report": {
+    "raw_records": 5000,
+    "removed_nan": 0,
+    "removed_duplicates": 0,
+    "final_records": 5000,
+    "class_counts": {
+      "normal(0)": 2500,
+      "heart_attack(1)": 2500
+    }
+  },
+  "baseline": {
+    "accuracy": 0.788,
+    "precision": 0.7596153846153846,
+    "recall_sensitivity": 0.8426666666666667,
+    "specificity": 0.7333333333333333,
+    "f1": 0.7989886219974716,
+    "roc_auc": 0.8682453333333333,
+    "tn": 275,
+    "fp": 100,
+    "fn": 59,
+    "tp": 316
+  },
+  "optimized": {
+    "accuracy": 0.9786666666666667,
+    "precision": 0.997229916897507,
+    "recall_sensitivity": 0.96,
+    "specificity": 0.9973333333333333,
+    "f1": 0.9782608695652174,
+    "roc_auc": 0.9995235555555555,
+    "tn": 374,
+    "fp": 1,
+    "fn": 15,
+    "tp": 360
+  },
+  "best_params": {
+    "n_blocks": 2,
+    "filters": 16,
+    "kernel_size": 7,
+    "dropout": 0.2,
+    "learning_rate": 0.01,
+    "batch_size": 32
+  }
+}
